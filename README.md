@@ -1,4 +1,4 @@
-## Atividade: Estilizando tela de login plataforma de streaming
+# Atividade: Estilizando tela de login plataforma de streaming
 
 Um desenvolvedor web normalmente começa com um rascunho, mockup ou esqueleto que mostra como a página ficará. Isso pode ser algo simples como um rascunho feito à mão em um pedaço de papel, ou pode ser um diagrama detalhado feito por um designer. Seja como for, o desenvolvedor irá usar este mockup como guia e escrever o HTML e o CSS para produzir o layout desejado.
 
