@@ -46,6 +46,11 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
+   padding:0;
+   margin:0;
+   border:0;
+   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+   background-image: url("../img/background.jpg");
 	
 }
 /* BODY */
@@ -53,9 +58,11 @@ body{
 
 /* HEADER */
 header{
+
 	
 }
 /* HEADER */
+
 
 
 /* FOOTER */
@@ -70,6 +77,126 @@ main{
 /* PÁGINA INICIAL */
 
 
-/* EXTRAS */
+#box {
+
+    background-color: rgba(0,0,0,.75);
+    width: 300px;
+    padding: 60px 68px 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+}
 
 /* EXTRAS */
+
+.netflix {
+position:absolute;
+top:40px;
+left:100px;
+z-index: 1;
+
+}
+
+.fundo {
+position:absolute;
+width: 100vw;
+height: 100vh;
+z-index: 0;
+background-color: black;
+
+}
+
+#plano {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height:100%;
+    opacity: 0.6;
+    
+   }
+
+   #email, #password {
+    width: 20em;
+    margin: 5px;
+    padding: 15px;
+    border: 10px;
+    background-color: #595959;
+    color: rgb(216, 209, 209) ;
+    text-align: left;
+    
+
+   }
+
+
+
+
+.titulo
+{
+text-align: left;
+padding-bottom: 25px;
+text-align: left;
+font-weight: bold;
+padding: 5px;
+width: 200px;
+color: white
+
+
+}
+
+   .submeter {
+    width: 22em;
+    margin: 0px;
+    padding: 15px;
+    border: 10px;
+    background-color: #e50914;
+    color: white;
+
+   }
+
+   .ok {
+padding-bottom: 30px;
+
+   }
+
+   .box_submeter {
+
+padding:10px;
+border: 0;
+margin:0;
+
+   }
+
+   #checkbox {
+
+    position: absolute;
+    left:70px;
+    background-color: #595959;
+    border: 0;
+  
+   }
+
+
+   #ajuda {
+position:absolute;
+right: 70px;
+font-size: 10px;
+
+   }
+
+#lembre {
+    position: absolute;
+    padding-top: 5px;
+    left: 95px;
+    color: white;
+   font-size: 10px;
+
+}
+
+
+   
+
+
+ 
